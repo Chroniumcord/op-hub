@@ -1,0 +1,7 @@
+local Message = loadstring(game:HttpGet("https://raw.githubusercontent.com/frel0/FakeKickLibrary/main/FakeKickLibrary.lua", true))()
+
+Message:Crash("You have got IP - banned for hacking. You can't rejoin roblox.")
+wait(3)
+Message:Kick("You have been kicked from this experience: Account banned")
+wait(3)
+Message:RickRoll()
